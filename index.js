@@ -4,6 +4,9 @@ import cors from "cors";
 import connectDB from "./Config/DbConfig.js";
 
 import authRoutes from "./Routes/userRoutes.js";
+// import chatRoute from "./Routes/chatRoute.js"
+
+import { chatRouter } from "./Routes/chatRoute.js";
 
 
 dotenv.config();
@@ -22,6 +25,7 @@ connectDB();
 
 // Routes
 app.use("/api/auth", authRoutes);
+app.use("/api/chat", chatRouter);
 
 
 // Health check route
