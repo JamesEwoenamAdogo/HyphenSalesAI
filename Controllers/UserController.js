@@ -233,7 +233,7 @@ export const verifyOTP = async (req, res) => {
     user.otp = null;
     user.otpExpiresAt = null;
 
-    await user.save();
+    await user.save(); 
 
     return res.status(200).json({
       success: true,
