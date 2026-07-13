@@ -51,7 +51,7 @@ export const signup = async (req, res) => {
 
       await sendEmail({
         to: user.email,
-        subject: "Verify your CARBN account 🔐",
+        subject: "Verify your Hyphen Sales AI account 🔐",
         html: `
           <!DOCTYPE html>
           <html>
@@ -69,7 +69,7 @@ export const signup = async (req, res) => {
                       <td>
 
                         <h1 style="color:#111;font-size:30px;">
-                          Verify your CARBN account 🚀
+                          Verify your Hyphen Sales AI account 🚀
                         </h1>
 
 
