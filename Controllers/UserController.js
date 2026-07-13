@@ -1,7 +1,7 @@
 import User from "../Models/UserModel.js";
 import bcrypt from "bcryptjs";
 import { generateOTP } from "../Utils/generateOTP.js";
-import jwt from "jsonwebtoken"
+import jwt from "jsonwebtoken" 
 import {sendEmail} from "../Utils/sendEmail.js";
 
 export const signup = async (req, res) => {
