@@ -79,7 +79,7 @@ export const signup = async (req, res) => {
 
 
                         <p style="font-size:16px;color:#444;line-height:28px;">
-                          Thank you for creating your CARBN account.
+                          Thank you for creating your Hyphen Sales AI account.
                           Please use the verification code below to complete your registration.
                         </p>
 
@@ -132,7 +132,7 @@ export const signup = async (req, res) => {
                           font-weight:bold;
                           color:#111;
                         ">
-                          The CARBN Team
+                          The Hyphen Sales AI Team
                         </p>
 
 
