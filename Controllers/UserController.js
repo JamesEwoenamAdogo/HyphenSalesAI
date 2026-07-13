@@ -132,7 +132,7 @@ export const signup = async (req, res) => {
                           font-weight:bold;
                           color:#111;
                         ">
-                          The Hyphen Sales AI Team
+                          The Hyphen Team
                         </p>
 
 
